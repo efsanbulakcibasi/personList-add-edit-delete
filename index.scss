@@ -1,0 +1,99 @@
+.section {
+    padding-top: 70px;
+    .c-wrapper {
+        width: 1300px;
+        margin: 0 auto;
+        .item {
+            display: flex;
+            padding: 16px;
+            border: 3px solid orange;
+            border-radius: 16px;
+            background-color: whitesmoke;
+            h2 {
+                font-size: 26px;
+                color: brown;
+                font-weight: 900;
+            }
+            .a-item {
+                width: 25%;
+                height: auto;
+                border: 3px solid darkcyan;
+                border-radius: 16px;
+                padding: 16px;
+                .a-item-01 {
+                    display: grid;
+                    gap: 10px;
+                    label {
+                        color: orange;
+                        font-weight: 900;
+                    }
+                    input {
+                        color: brown;
+                        font-weight: 900;
+                    }
+                    .a-item-01-A {
+                        cursor: grab;
+                        background-color: brown;
+                        transform: 0.5s;
+                        border: 2px solid whitesmoke;
+                        padding: 5px;
+                        color: whitesmoke;
+                        border-radius: 16px;
+                    }
+                }
+            }
+            .b-item {
+                flex: 1;
+                margin-left: 10px;
+                padding: 16px;
+                border: 3px solid brown;
+                border-radius: 16px;
+                h3 {
+                    font-size: 26px;
+                    color: darkcyan;
+                    font-weight: 900;
+                }
+                .b-item-01 {
+                    li {
+                        list-style: none;
+                        .b-item-01-A {
+                            display: flex;
+                            gap: 30px;
+                            li {
+                                width: 100px;
+                                color: orange;
+                                font-weight: 900;
+                                list-style: none;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .b-item-02 {
+                    li {
+                        list-style: none;
+                        .b-item-02-A {
+                            display: flex;
+                            gap: 32px;
+                            li {
+                                width: 100px;
+                                color: darkcyan;
+                                font-weight: 700;
+                                list-style: none;
+                                font-size: 15px;
+                                margin-bottom: 10px;
+                                button {
+                                    cursor: grab;
+                                    background-color: brown;
+                                    border: 2px solid whitesmoke;
+                                    color: whitesmoke;
+                                    border-radius: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
